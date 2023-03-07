@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In bảng cửu chương</title>
+</head>
+
+<body>
+    <!-- <h1>Chọn số bất kì in ra bảng cửu chương</h1>
+    <label for="">Nhập số bất kì</label>
+    <input id="num" type="text">
+    <input onclick="cuuChuong()" type="button" value="Tìm bảng cửu chương">
+    <p id="result"></p> -->
+
+    <script>
+        // let text = "";
+        // function cuuChuong() {
+        //     let so = Number(document.getElementById("num").value);
+        //     for (let i = 0; i <= 10; i++) {
+        //         let kq = so * i;
+        //         text += `${so}  x  ${i}  =  ${kq}  <br>`;
+        //     }
+        //     console.log("text", text);
+        //     document.getElementById("result").innerHTML = text;
+        // }
+
+        for (let i = 0; i <= 10; i++) {
+            document.write("<br>")
+            for (let j = 0; j <= 10; j++) {
+                let product = j*i;
+                document.write(`${j} x ${i} = ${product} <br>`);
+            }
+        }
+    </script>
+</body>
+
+</html>
